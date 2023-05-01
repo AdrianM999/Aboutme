@@ -47,19 +47,13 @@
 }
 
 .img-Aboutme {
-    
     background-image:
-   
     url(../Pages/images/b4da37ff0941030338a6570562e10f2f.jpg);
-
     filter: FlipH;
     -ms-filter: "FlipH";
     background-size: cover;
-  
     background-repeat: no-repeat;
     background-position-y:  center;
-  
-    
     position: absolute;
     top: 60px;
     right: 6.25%;

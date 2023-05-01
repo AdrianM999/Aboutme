@@ -1,0 +1,32 @@
+.container-skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fullStack {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+}
+
+.h2-skills {
+    padding-left: 2.5rem;
+    color: #fcd9b8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.fullStackSkills{
+    border-left: solid 2px #fab23d;
+}
+
+.fullStack {
+    line-height: 3rem;
+    display: block;
+    color: whitesmoke;
+    text-align: start;
+    padding-left: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
