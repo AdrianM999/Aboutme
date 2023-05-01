@@ -8,7 +8,7 @@ export default function AboutMe() {
         <header className="header-Aboutme">
             <div className="containerNavBar-Aboutme">
                 <ul className="navigation-Aboutme">
-                <li><Link to="/" className="home-aboutmepage">Home</Link></li>
+                    <li><Link to="/" className="home-aboutmepage">Home</Link></li>
                 </ul>
             </div>
         <div className="container-Aboutme">

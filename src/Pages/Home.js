@@ -1,12 +1,13 @@
 import React from "react";
 import './Home.css'
 import { Link } from "react-router-dom";
+
 export default function Home() {
     return(
         <>
          
             <header className="header-home">
-            <div className='container'>
+            <div className='containerH'>
                 <nav className="container-navbar">
                     <ul>
                         <li><Link to="/contact" className="right">Contact</Link></li>
