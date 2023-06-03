@@ -1,5 +1,4 @@
 import React from "react";
-import './skills.css';
 import { Link } from "react-router-dom";
 
 export default function Skills() {
@@ -11,42 +10,41 @@ export default function Skills() {
                         <li><Link to="/" className="home-aboutmepage">Home</Link></li>
                     </ul>
                 <div className="container-skills">
-                    <div className="fullStack-skill">
-                        <h2 className="h2-skills">Full Stack</h2>
-                        <ul className="fullStackSkills">
-                            <li className="fullStack">HTML5</li>
-                            <li className="fullStack">CSS3</li>
-                            <li className="fullStack">JavaScript</li>
-                            <li className="fullStack">React</li>
-                            <li className="fullStack">Redux</li>
-                            <li className="fullStack">Bootstrap</li>
-                            <li className="fullStack">Git</li>
-                            <li className="fullStack">Knowledge of APIs</li>
-                            <li className="fullStack">DOM</li>
-                            <li className="fullStack">Responsive Design</li>
-                            <li className="fullStack">Program Frameworks</li>
-                            <li className="fullStack">Testing and Debugging</li>
+                    <div className="frontend-skill">
+                        <h2 className="h2-skills">Front-End</h2>
+                        <ul className="frontendskills">
+                            <li className="frontend">HTML5/CSS3</li>
+                            <li className="frontend">JavaScript</li>
+                            <li className="frontend">React</li>
+                            <li className="frontend">Redux</li>
+                            <li className="frontend">Bootstrap</li>
+                            <li className="frontend">Git/GitHub</li>
+                            <li className="frontend">Knowledge of APIs</li>
+                            <li className="frontend">DOM</li>
+                            <li className="frontend">Responsive Design</li>
+                            <li className="frontend">Program Frameworks</li>
+                            <li className="frontend">Testing and Debugging</li>
                         </ul>
                     </div>
                     <div className="digitalSkills">
                         <h2 className="h2-skills">Digital Skills</h2>
-                        <ul className="fullStackSkills">
-                            <li className="fullStack">Adobe Photoshop</li>
-                            <li className="fullStack">Microsoft Office</li>
-                            <li className="fullStack">Adobe Illustrator</li>
-                            <li className="fullStack">Lightroom</li>
+                        <ul className="frontendskills">
+                            <li className="frontend">Adobe Photoshop</li>
+                            <li className="frontend">Microsoft Office</li>
+                            <li className="frontend">Adobe Illustrator</li>
+                            <li className="frontend">Lightroom</li>
                         </ul>
                     </div>
                     <div className="personalSkills">
                         <h2 className="h2-skills">Personal Skills</h2>
-                        <ul className="fullStackSkills">
-                            <li className="fullStack">Problem-solving</li>
-                            <li className="fullStack">Good Communication and Interpersonal Skills</li>
-                            <li className="fullStack">Creativity</li>
-                            <li className="fullStack">Attention to Detail</li>
-                            <li className="fullStack">Good Communication and Interpersonal Skills</li>
-                            <li className="fullStack">A logical approach to work</li>
-                            <li className="fullStack">The ability to explain technical matters clearly</li>
+                        <ul className="frontendskills">
+                            <li className="frontend">Problem-solving</li>
+                            <li className="frontend">Good Communication and Interpersonal Skills</li>
+                            <li className="frontend">Creativity</li>
+                            <li className="frontend">Attention to Detail</li>
+                            <li className="frontend">Good Communication and Interpersonal Skills</li>
+                            <li className="frontend">A logical approach to work</li>
+                            <li className="frontend">The ability to explain technical matters clearly</li>
                         </ul>
                     </div>
                 </div>

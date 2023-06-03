@@ -8,3 +8,401 @@ body {
   background: linear-gradient(to right, #434343 0%, #232526 100%);
   opacity: 0.8;
 }
+
+/* Home */
+
+header {
+  opacity: 0.9;
+  background: linear-gradient(to right, rgb(40,40,40) 0%, rgb(16,16,16) 99.4%);
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  height: 80vh;
+  margin-top: 3.125%;
+  margin-bottom: 3.125%;
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+}
+
+.header-home{
+  opacity: 0.8;
+  background-image: url(./Pages/images/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.container-navbar {
+  padding-bottom: 6.25%;
+}
+
+
+
+ul {
+  padding: 1.875rem 2.5rem;
+}
+
+ul .right {
+  float: right;
+  margin-right: 1rem;
+}
+
+li {
+  display: inline;
+  font-size: 1.25rem;
+  padding-left: 0.20rem;
+}
+
+li a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+li:active {
+  color: #fab23d;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.heading { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 3.125%;
+}
+
+.h1-home {
+  color: whitesmoke;
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.h2-home {
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.span-home{
+ color: #fab23d;
+ font-size: 1rem;
+ padding-left: 0.5%;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 100;
+ letter-spacing: 10px;
+}
+
+/* About me */
+
+.header-Aboutme {
+  background: linear-gradient(to right, rgb(40,40,40)  0%, rgb(16,16,16) 99.4%);
+}
+
+.container-Aboutme {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 8.5%;
+  padding-top: 3.125%;
+}
+
+.h1-Aboutme {
+  font-size: 3.5rem;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.span-Aboutme {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: rgb(245, 203, 92);
+  letter-spacing: 3px;
+}
+
+.text-Aboutme {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 3.125%;
+  padding-left: 5.5%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.p-Aboutme {
+  font-size: 1.25rem;
+  padding: 6.25%;
+  text-align: left;
+  color: whitesmoke;
+}
+
+.img-Aboutme {
+  background-image:
+  url(../src/Pages/images/b4da37ff0941030338a6570562e10f2f.jpg);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y:  center;
+  position: absolute;
+  top: 60px;
+  right: 6.25%;
+  width: 35%;
+  height: 80%; 
+}
+
+
+/* skills */
+
+.container-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.frontend {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 2rem;
+  display: block;
+  color: whitesmoke;
+  text-align: start;
+  padding-left: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  max-height: 100px;
+}
+
+.h2-skills {
+  padding-left: 2.5rem;
+  color: #fcd9b8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.frontendskills {
+  border-left: solid 2px #fab23d;
+}
+
+
+/* Projects */
+
+.h5CusomtYellow {
+  color: #fab23d;
+  padding: .75rem;
+}
+
+.h5Cusomt {
+  color: black;
+  padding: .75rem;
+}
+
+.containerProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 150vh; 
+  margin: 0 auto;
+}
+
+.imgProjects {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carousel-caption {
+  position: relative;
+  top: 37rem;
+}
+
+.carousel-indicators {
+  position: relative;
+  top: 40.5rem;
+  color: #fab23d;
+}
+
+/* Contact */
+
+.containerHeadingContact {
+  display: flex;
+  justify-content: center;
+}
+
+.h2Contact {
+padding: 3.125rem;
+color: #fcd9b8;
+font-size: 2.5rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+.ulContainer-contact {
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.liContact {
+  list-style:none;
+}
+
+.ulContainer-contact .liContact a {
+  display:block;
+  position:relative;
+  width:100px;
+  height:100px;
+  line-height:100px;
+  font-size:40px;
+  text-align:center;
+  text-decoration:none;
+  color: #fcd9b8;
+  margin: 0 30px;
+  transition:.5s;
+}
+
+.ulContainer-contact .liContact a span {
+  position:absolute;
+  transition: transform .5s;
+}
+
+.ulContainer-contact .liContact a span:nth-child(1),
+.ulContainer-contact .liContact a span:nth-child(3){
+  width:100%;
+  height:3px;
+  background:#fab23d;
+}
+
+.ulContainer-contact .liContact a span:nth-child(1) {
+  top:0;
+  left:0;
+  transform-origin: right;
+}
+
+.ulContainer-contact .liContact a:hover span:nth-child(1) {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition:transform .5s;
+}
+
+.ulContainer-contact .liContact a span:nth-child(3) {
+  bottom:0;
+  left:0;
+  transform-origin: left;
+}
+
+.ulContainer-contact .liContact a:hover span:nth-child(3) {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition:transform .5s;
+}
+
+.ulContainer-contact .liContact a span:nth-child(2),
+.ulContainer-contact .liContact a span:nth-child(4) {
+  width:3px;
+  height:100%;
+  background:#404040;
+}
+
+.ulContainer-contact .liContact a span:nth-child(2) {
+  top:0;
+  left:0;
+  transform:scale(0);
+  transform-origin: bottom;
+}
+
+.ulContainer-contact .liContact a:hover span:nth-child(2) {
+  transform: scale(1);
+  transform-origin: top;
+  transition:transform .5s;
+}
+
+.ulContainer-contact .liContact a span:nth-child(4) {
+  top:0;
+  right:0;
+  transform:scale(0);
+  transform-origin: top;
+}
+
+.ulContainer-contact .liContact a:hover span:nth-child(4) {
+  transform: scale(1);
+  transform-origin: bottom;
+  transition:transform .5s;
+}
+
+
+.github:hover i {
+  color: black;
+}
+.github:hover span {
+  background: black;
+}
+.linkedin:hover i {
+  color: #0077b5;
+}
+.linkedin:hover span {
+  background: #0077b5;
+}
+.instagram:hover i {
+  color: #c32aa3;
+}
+.instagram:hover span {
+  background: #c32aa3;
+}
+
+.google:hover i {
+  color: #dd4b39;
+}
+.google:hover span {
+  background: #dd4b39;
+}
+
+.ulContainer-contact .liContact a.github:hover {
+  color: black;
+}
+.ulContainer-contact .liContact a.github:hover span {
+  background: black;
+}
+
+.ulContainer-contact .liContact a.linkedin:hover {
+  color: #0077b5;
+}
+.ulContainer-contact .liContact a.linkedin:hover span {
+  background: #0077b5;
+}
+
+.ulContainer-contact .liContact a.instagram:hover {
+  color: #c32aa3;
+}
+.ulContainer-contact .liContact a.instagram:hover span {
+  background: #c32aa3;
+}
+
+.ulContainer-contact .liContact a.google:hover {
+  color: #dd4b39;
+}
+.ulContainer-contact .liContact a.google:hover span {
+  background: #dd4b39;
+}

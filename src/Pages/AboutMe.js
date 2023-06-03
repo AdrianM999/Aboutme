@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './aboutme.css';
-
 export default function AboutMe() {
     return(
         <>

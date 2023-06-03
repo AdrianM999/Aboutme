@@ -6,6 +6,7 @@ import  Contact  from './Pages/Contact';
 import  Projects  from './Pages/Projects';
 import  Skills  from './Pages/Skills';
 import { Route, Routes} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 function App() {
