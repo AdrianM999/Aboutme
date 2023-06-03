@@ -39,7 +39,7 @@ export default function Projects() {
                     <Carousel.Item>
                         <img src={project4} alt="Project 3" className="imgProjects"/>
                         <Carousel.Caption>
-                            <h5 className="h5Cusomt">Calculator App</h5>
+                            <h5 className="h5Cusomt">Todo list</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
                     
