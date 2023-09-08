@@ -14,7 +14,9 @@ export default function Skills() {
                         <h2 className="h2-skills">Front-End</h2>
                         <ul className="frontendskills">
                             <li className="frontend">HTML5/CSS3</li>
-                            <li className="frontend">JavaScript</li>
+                            <li className="frontend">JavaScript/Typescript</li>
+                            <li className="frontend">C++(Basics)</li>
+                            <li className="frontend">Python(Basics)</li>
                             <li className="frontend">React</li>
                             <li className="frontend">Redux</li>
                             <li className="frontend">Bootstrap</li>
@@ -23,7 +25,18 @@ export default function Skills() {
                             <li className="frontend">DOM</li>
                             <li className="frontend">Responsive Design</li>
                             <li className="frontend">Program Frameworks</li>
-                            <li className="frontend">Testing and Debugging</li>
+                            <li className="frontend">Testing and Debugging<br />(Jest/Mocha/Chai)</li>
+                        </ul>
+                    </div>
+                    <div className="hardSkills">
+                        <h2 className="h2-skills">Hard Skills</h2>
+                        <ul className="frontendskills">
+                            <li className="frontend">Hardware/System Components</li>
+                            <li className="frontend">Software</li>
+                            <li className="frontend">Security</li>
+                            <li className="frontend">Operating system(Windows, Linux, macOS)</li>
+                            <li className="frontend">Networking(TCP/IP)</li>
+                            <li className="frontend">Apps and Database</li>
                         </ul>
                     </div>
                     <div className="digitalSkills">
