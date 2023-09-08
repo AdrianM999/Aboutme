@@ -6,7 +6,7 @@ import certificate3 from "./images/certificate3.png";
 import certificate4 from "./images/certificate4.png";
 import certificate5 from "./images/certificate5.png";
 import certificate6 from "./images/certificate6.png";
-import { Card } from 'react-bootstrap';
+
 
 
 export default function Projects() {
