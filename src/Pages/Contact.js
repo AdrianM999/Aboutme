@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="wraper">
             <ul className="ulContainer-contact">
                 <li className="liContact">
-                  <a className="github" href="https://github.com/AdrianM999/About-me.git">
+                  <a className="github" href="https://github.com/AdrianM999">
                     <span></span>
                     <span></span>
                     <span></span>
