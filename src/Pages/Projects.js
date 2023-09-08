@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import project0 from "./images/project0.png";
 import project1 from "./images/Project1.png";
 import project2 from "./images/Project2.png";
 import project3 from "./images/project3.png";
@@ -18,10 +19,17 @@ export default function Projects() {
             <div className="containerProjects">
                 <Carousel className="carousel " >
 
+
+                    <Carousel.Item>
+                        <img src={project0} alt="Project 1" className="imgProjects"/>
+                        <Carousel.Caption>
+                            <h5 className="h5Cusomt">Jamming: Spotify Based App</h5>
+                        </Carousel.Caption>
+                    </Carousel.Item>
                     <Carousel.Item>
                         <img src={project1} alt="Project 1" className="imgProjects"/>
                         <Carousel.Caption className="carousel-caption">
-                            <h5 className="h5CusomtYellow">Motivational Quotes App</h5>
+                            <h5 className="h5Cusomt">Motivational Quotes App</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>

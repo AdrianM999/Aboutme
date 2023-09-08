@@ -205,14 +205,10 @@ li:active {
 
 /* Projects */
 
-.h5CusomtYellow {
-  color: #fab23d;
-  padding: .75rem;
-}
-
 .h5Cusomt {
-  color: black;
+  color: whitesmoke;
   padding: .75rem;
+  -webkit-text-stroke: 1px gainsboro; 
 }
 
 .containerProjects {
@@ -225,13 +221,14 @@ li:active {
 }
 
 .imgProjects {
+  max-width: 100%;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  position: relative;
+
 }
 
 .carousel-caption {
-  position: relative;
+  position: absolute;
   top: 37rem;
 }
 
@@ -239,6 +236,43 @@ li:active {
   position: relative;
   top: 40.5rem;
   color: #fab23d;
+}
+
+
+/* Certificates */
+
+
+.wrapper {
+  margin-top: -130px;
+}
+
+.containerCertificate {
+  min-height: 100vh;
+  width: 70%;
+
+}
+
+.card {
+  width: 18rem
+}
+
+.card {
+  position: relative;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card-zoom:hover {
+  transform: scale(2);
+  z-index: 1;
+  top: 100px; 
+}
+
+.card-zoom-bottom:hover {
+  transform: scale(2);
+  z-index: 1;
+  bottom: 100px; 
 }
 
 /* Contact */

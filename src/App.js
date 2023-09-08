@@ -5,6 +5,7 @@ import  Home  from './Pages/Home';
 import  Contact  from './Pages/Contact';
 import  Projects  from './Pages/Projects';
 import  Skills  from './Pages/Skills';
+import Certificates from './Pages/Certificates'
 import { Route, Routes} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/Certificates" element={<Certificates />} />
         </Routes>
     </>
   );

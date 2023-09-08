@@ -10,6 +10,7 @@ export default function Home() {
                 <nav className="container-navbar">
                     <ul>
                         <li><Link to="/contact" className="right">Contact</Link></li>
+                        <li><Link to="/Certificates" className="right">Certificates</Link></li>
                         <li><Link to="/projects" className="right">Projects</Link></li>
                         <li><Link to="/skills" className="right">Skills</Link></li>
                         <li><Link to="/aboutme">About Me</Link></li>

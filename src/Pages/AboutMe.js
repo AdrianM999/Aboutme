@@ -14,7 +14,12 @@ export default function AboutMe() {
             <span className="span-Aboutme">Adrian Mititelu</span>
         </div>
         <div className="text-Aboutme">
-            <p className="p-Aboutme">I am a junior-level web developer. Although I have a bachelor's degree in kinesiotherapy, I found myself drawn to coding. I began my programming journey with Codecademy. As a junior web developer, I have a strong passion for coding and a solid foundation in HTML, CSS, and JavaScript. I specialize in creating visually appealing and responsive websites, paying attention to clean and well-structured code to ensure a seamless browsing experience. I am committed to staying up-to-date with the latest trends and best practices in web development and am eager to take on new challenges to grow and learn as a developer. I am confident that with my positive attitude and dedication to my craft, I can become a valuable asset to any team.</p>
+            <p className="p-Aboutme">I'm a young individual with well-defined goals and aspirations, actively seeking a career opportunity that allows me to grow and excel. 
+                                     In return, I can offer the following: 
+                                     <br /> 
+                                     Strong technical background: Hardware, Software, Networking(TCP/IP),
+                                     Security, Operating System, Troubleshooting, Databases, Programming
+                                     language(Front-end development HTML/CSS, JavaScript/React).</p>
         </div>
             <div className="img-Aboutme">
             
