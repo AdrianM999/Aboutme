@@ -12,7 +12,7 @@ import {  useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true); 
+  const [isLoading] = useState(true); 
 
 
 
