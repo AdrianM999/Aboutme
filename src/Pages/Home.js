@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function Home() {
+
     return(
         <>
-         
             <header className="header-home">
             <div className='containerH'>
                 <nav className="container-navbar">
